@@ -1,13 +1,13 @@
 import './app.css'
-import { Card } from './components/card'
 
 import { Header } from './components/header'
+import { Main } from './components/main'
 function App() {
 
   return (
     <>
     <Header/>
-    <Card/>
+    <Main/>
     </>
   )
 }
